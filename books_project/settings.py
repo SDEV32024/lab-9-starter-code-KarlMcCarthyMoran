@@ -132,6 +132,9 @@ STATICFILES_FINDERS = [
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
+MEDIA_URL = 'media/'
+MEDIA_ROOT = str(BASE_DIR.joinpath('media'))
+
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 AUTH_USER_MODEL = 'accounts.CustomUser'
