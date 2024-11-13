@@ -1,0 +1,35 @@
+[
+    {
+        "model": "books.book",
+        "pk": "0faa36cc-b073-4774-9284-7309eee95605",
+        "fields": {
+            "title": "DjangoUnleashed",
+            "author": "Django",
+            "price": "15.00",
+            "date_publication": "1995-06-24",
+            "cover": "covers/DjangoUnleashed.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": "1ff4d713-02e1-4b8a-9da3-20a3ecd3c424",
+        "fields": {
+            "title": "Lightweight Django",
+            "author": "Lifter",
+            "price": "12.00",
+            "date_publication": "2010-09-10",
+            "cover": "covers/Lightweight.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": "613c8a42-9c7e-4edc-971b-d884a8133cdf",
+        "fields": {
+            "title": "Python CookBook",
+            "author": "Brian Jones",
+            "price": "16.00",
+            "date_publication": "1980-10-31",
+            "cover": "covers/PythonCookbook.jpg"
+        }
+    }
+]
